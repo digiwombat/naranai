@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/naranai/!svn/ver/42/naranai/admin
+END
+fix_tag_count.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/naranai/!svn/ver/45/naranai/admin/fix_tag_count.php
+END
+implication_delete.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/naranai/!svn/ver/2/naranai/admin/implication_delete.php
+END
+remove_from_group.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/naranai/!svn/ver/2/naranai/admin/remove_from_group.php
+END
+tag_delete.php
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/naranai/!svn/ver/2/naranai/admin/tag_delete.php
+END
+remove_spam_users.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/naranai/!svn/ver/45/naranai/admin/remove_spam_users.php
+END
+remove_untagged_images.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/naranai/!svn/ver/45/naranai/admin/remove_untagged_images.php
+END
+forum_lock.php
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/naranai/!svn/ver/27/naranai/admin/forum_lock.php
+END
+taglessremover.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/naranai/!svn/ver/45/naranai/admin/taglessremover.php
+END
+imagecolors.php
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/naranai/!svn/ver/2/naranai/admin/imagecolors.php
+END
+admin_settings.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/naranai/!svn/ver/6/naranai/admin/admin_settings.php
+END
+approve_user.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/naranai/!svn/ver/15/naranai/admin/approve_user.php
+END
+forum_delete.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/naranai/!svn/ver/27/naranai/admin/forum_delete.php
+END
+user_management.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/naranai/!svn/ver/45/naranai/admin/user_management.php
+END
+tagremover.php
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/naranai/!svn/ver/45/naranai/admin/tagremover.php
+END
+alias_delete.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/naranai/!svn/ver/2/naranai/admin/alias_delete.php
+END
+group_delete.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/naranai/!svn/ver/2/naranai/admin/group_delete.php
+END
+image_adder.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/naranai/!svn/ver/27/naranai/admin/image_adder.php
+END
+user_status.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/naranai/!svn/ver/27/naranai/admin/user_status.php
+END
+save_config.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/naranai/!svn/ver/45/naranai/admin/save_config.php
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/naranai/!svn/ver/30/naranai/admin/index.html
+END
+forum_stick.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/naranai/!svn/ver/27/naranai/admin/forum_stick.php
+END
+note_delete.php
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/naranai/!svn/ver/2/naranai/admin/note_delete.php
+END
+deletorizer.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/naranai/!svn/ver/42/naranai/admin/deletorizer.php
+END

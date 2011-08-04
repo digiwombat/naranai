@@ -1,0 +1,33 @@
+Location will be an enum with a list of locations.
+
+// Sitewide Functions
+function gethooks($location)
+{
+	$sql = "SELECT `file_location`, `action` FROM `plugins` WHERE `hook_location` = '" . $location . "'";
+}
+
+// Developer Required Functions
+function add_action($action, $hook_location)
+{
+	//Adds the action and the hook location of the action to the database. One for each function and place.
+}
+
+function initialize_plugin()
+{
+	add_action($action1, $hook_location1);
+	add_action($action2, $hook_location2);
+	add_action($action3, $hook_location1);
+	add_action($action4, $hook_location3);
+}
+
+// Plugin Admin area functions.
+function activate($file_location)
+{
+	//Parses the plugin file for action adding.
+	initialize_plugin();
+}
+
+function dectivate($file_location)
+{
+	//Removes the plugin from to the plugins DB
+}

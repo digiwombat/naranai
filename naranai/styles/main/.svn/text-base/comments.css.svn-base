@@ -1,0 +1,186 @@
+@charset "utf-8";
+
+.comment {
+    list-style: none;
+    font-size: 0.9em;
+    padding: 0;
+    margin: 0;
+
+}
+.comment abbr {
+    border-bottom: none;
+}
+
+.comment blockquote
+{
+	background: #eee;
+	border: 1px dashed #ddd;
+	width: 70%;
+	padding: 10px;
+}
+
+.comment li {
+    margin: 0;
+	margin-bottom: 10px;
+    padding: 10px 13px;
+    border-bottom: 1px dotted #ddd;
+}
+
+.comment li:last-child {
+    border-bottom: none;
+}
+.comment li:target {
+    background: #fdfbe9;
+}
+.comment li:target .ref {
+    background: #fffdee;
+}
+
+.comment .info {
+    float: left;
+    width: 192px;
+    display: block;
+    margin: 0 0 4px;
+    color: #999;
+}
+.comment .info .poster {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #777;
+}
+
+.comment .info .poster  img{
+    float:left;
+	margin-right: 3px;
+	border: 1px solid #666;
+}
+
+.comment .info .time {
+    display: block;
+    margin-top: 1px;
+}
+
+.comment .content_buried, .comment .content {
+    line-height: 1.3em;
+    margin-left: 12em;
+	margin-left: 230px;
+}
+.comment .content p {
+    margin: 0 0 0.5em;
+}
+
+.comment .content p  a {
+    text-decoration: none;
+}
+
+.comment .content .spoiler { background: #333; color: #333; }
+.comment .content .spoiler .ref { padding-bottom: 1px; background: #333; }
+.comment .content .spoiler .ref a { color: #333; }
+.comment .content .spoiler a { color: #333; }
+.comment .content .spoiler:hover { color: #fff; }
+.comment .content .spoiler:hover .ref { background: #555; }
+.comment .content .spoiler:hover a { color: #fff; }
+.comment .content .spoiler:hover a:hover { color: #ddd; }
+
+.comment .content_buried p {
+    font-size: 0.95em;
+    margin: 0 0 0.2em;
+}
+
+.comment .actions {
+    margin-top: -0.3em;
+    margin-left: 12em;
+	margin-bottom: 15px;
+}
+.comment .actions span {
+    margin-right: 5px;
+}
+.comment .actions a {
+    font-size: 0.9em;
+    padding: 1px 3px 2px 0;
+    color: #bbb;
+}
+.comment .actions a:hover {
+    color: #333;
+}
+
+.comment .content .ref {
+    font-size: 0.85em;
+    padding: 2px 3px;
+    background: #f9f9f9;
+}
+
+/* - Buried comments: any comments that has been buried */
+.comment .buried .info * {
+    color: #ddd;
+}
+.comment .buried .content_buried {
+    color: #ddd;
+}
+.comment .buried .bury_show {
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.comment .buried .bury_show:hover {
+    color: #333;
+}
+.comment .buried .content {
+    color: #aaa;
+}
+.comment .buried .actions a {
+    color: #ddd;
+}
+
+/* Comments list
+   Listing of all comments separate by posts */
+#comments_list #posts {
+    margin: 20px 0 0 0;
+}
+
+#comments_list #posts .meta {
+    margin: 0 0 0 197px;
+    padding: 5px 0 5px 13px;
+    border-bottom: 2px solid #e5e5e5;
+}
+#comments_list #posts .meta h3 {
+    color: #666;
+    font-size: 1em;
+    padding: 0;
+    margin: 0 0 2px 0;
+}
+
+#comments_list #posts .thread {
+    float: left;
+    clear: both;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+#comments_list #posts .comment {
+    margin-left: 197px;
+}
+
+#comments_list #posts p.post {
+    float: left;
+    display: block;
+    text-align: center;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+}
+#comments_list #posts p.post img {
+    border: none;
+}
+
+/* Comment bury
+   Page showing bury confirmation */
+#comment_bury .comment {
+    margin-top: -10px;
+}
+
+.forum li {
+    margin: 0;
+    padding: 0;
+    border-bottom: none;
+}

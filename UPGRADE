@@ -1,0 +1,5 @@
+To upgrade, upload all the files like you did in the original install and run upgrade.sql from the SQL folder.
+
+Either don't upload the hibbity folder, or edit your config files after overwriting them.
+
+Also, run install.php in the hibbity folder on your server. It'll make sure you've got the folders you need.

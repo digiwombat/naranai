@@ -1,0 +1,27 @@
+Explanation from my blog
+P.S. I know the code is in crap shape at the moment. I will fix it up in time. Feel free to help out, lazy fuckers.
+---
+
+Right! So, naranai is a piece of image repo software that is meant to be on feature parity with danbooru without using the absolutely shit terrible server technologies that danbooru uses.
+
+Reasons for Development
+
+I'm about to be mean... just a heads up.
+
+I wanted to put up an image repo. I'm a sucker for having things nicely archived for me. So obviously, my first stop was danbooru. It's basically the cat's pajamas as far as a feature standard goes for image repos. We all know that. Though anyone who wants to actually work with the software will realize nearly immediately that is uses a bunch of horseshit stupid server tech like Ruby and the PAINFULLY WORTHLESS PostgreSQL. I don't know a developer that I respect who would piss on Postgre to put out a fire and Ruby is just as bad. It's a cycle hog that makes baby Jesus cry. And the syntax is pretty stupid as well. So that sort of rules out the danbooru software from my point of view.
+
+And so I moved along. Next, I figured I'd better just narrow it to the two best server techs in the world today... PHP and MySQL. Anyone should know that this decision landed me on the doorstep of  shimmie2. Now... lest I seem harsh... shimmie2 is easily one of the biggest piles of poorly thought out shit I've ever seen in my life. From a programming point of view, it's a mess all over. This is before we even get into the practical problems. It's been written by a guy who clearly has no idea how to make a decent theme system. It's been objected oriented to the point that the code is nearly obfuscated. It's a painful sight for a guy who has spent far too long singing the praises of NOT over using OOP. It reminded me a lot of another system I hate, ZenCart. But that's enough bitching about the backend. It was only really a problem when I wanted to modify any number of things. The front end was pretty much just baseline for features.
+
+Probably the most irksome thing about shimmie2 is something that anyone who visits Rule34 will have noticed. It uses thumbnails and images in the stupidest way possible. Ok. Get this. Every image, including thumbnails, is routed through the MAIN index.php file that also loads in and generates every single other page on the site. Gee, I wonder how that could be a problem. And that's ignoring that some browsers can't even properly process those requests due to timeouts and shit like that. It'd cause issues in Firefox even on low-use sites. Which is odd... why would someone route all the files through a script, let alone an index script?
+
+Where It Stands
+
+Basically, at this point, it's about 60% complete on the user facing side. Give or take. Administration tools are a bit lacking at the moment, but I am trying to figure out how exactly I'd like to deal with them. I'm thinking that front-end transparency would be good, allowing moderators and janator types to take stock of the site as they browse it, with larger backend tools for batch processing of changes. Though, that's sort of a given, I guess.
+
+naranai already includes a number of advanced features such as the ability to add translations to images and an advanced tagging system that I think makes tag management a lot easier to swallow than the way most sites handle it currently. AT LEAST IN MY OPINION. There are a few bugs with the system and shit like that. But they're relatively minor and most are to do with the javascript at play at the moment. I'll beat them into submission before too long.
+
+Plans for the Future
+
+In the immediate, I'm aiming for feature parity with danbooru. At least from a front-end. I don't much give a shit about the forums and the wiki sections. I'm also planning to actually RELEASE the software when I get it to a point where it can be used by people, program an installer, and all that jazz.
+
+My theme system will basically be a style selector, as the site will be completely editable through styling, and really what else do you need? Greedy fuckers. Likewise, when I open source it, I plan to have other people do all the work for me. As such, I have set up a git-hub repo for the project and I will edit this post to link to it shortly... now I am thoroughly distracted anddddd... yeah.

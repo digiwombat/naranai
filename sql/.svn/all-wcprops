@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 24
+/naranai/!svn/ver/41/sql
+END
+colors.sql
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/naranai/!svn/ver/2/sql/colors.sql
+END
+shimmie2-to-naranai.sql
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/naranai/!svn/ver/32/sql/shimmie2-to-naranai.sql
+END
+upgrade.sql
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/naranai/!svn/ver/41/sql/upgrade.sql
+END
+naranai.sql
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/naranai/!svn/ver/6/sql/naranai.sql
+END

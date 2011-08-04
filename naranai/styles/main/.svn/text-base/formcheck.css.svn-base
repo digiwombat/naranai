@@ -1,0 +1,170 @@
+/* FormCheck tipbox */
+
+/* tipbox :
+	table : 
+		tl		: top left
+		t		: top
+		tr		: top right
+		l 		: left
+		r		: right
+		bl		: bottom left
+		b		: bottom (with mark)
+		br		: bottom right
+		c		: center
+	components : 
+		a.close	: close button
+		err		: errors div
+		p		: error line
+*/
+
+.fc-tbx .tl{
+	background: url('img/tl.png') no-repeat;
+}
+.fc-tbx .t{
+	background: url('img/t.png') repeat-x;
+	height: 16px;
+}
+.fc-tbx .tr{
+	background: url('img/tr.png') no-repeat;
+}
+.fc-tbx .l{
+	background: url('img/l.png') repeat-y;
+	width : 16px;
+}
+.fc-tbx .r{
+	background: url('img/r.png') repeat-y;
+	width: 16px;
+}
+.fc-tbx .bl{
+	background: url('img/bl.png') no-repeat;
+}
+.fc-tbx .b{
+	background: url('img/b.png') no-repeat;
+	height: 25px;
+}
+.fc-tbx .br{
+	background: url('img/br.png') no-repeat;
+}
+.fc-tbx .c{
+	background: url('img/c.png') repeat;
+}
+.fc-tbx a.close {
+	float: right;
+	background: url('img/close.png') no-repeat;
+	position: relative;
+	margin-left: 5px;
+	display: block;
+	width: 10px;
+	height: 10px;
+	cursor: pointer;
+}
+.fc-tbx .err {
+	float: left;
+}
+.fc-tbx p {
+	width : auto;
+	display: block;
+	font-size: 10px;
+	font-family: tahoma, verdana, "sans-serif";
+	margin : 0;
+	padding : 0;
+	border : 0;
+	color : #FFF;
+}
+
+.ajax_loader {
+	background : url('img/ajax-loader.gif') no-repeat center;
+	width : 200px;
+	height : 150px;
+}
+
+
+/* FormCheck validation div */
+
+.fc-error {
+	border : 1px solid #888;
+	margin-top : 5px;
+	background-color : #EAEAEA;
+}
+.fc-error p {
+	margin : 5px;
+	color : #A00;
+}
+
+form.registration 
+{
+	font-family:tahoma,verdana,"sans-serif";
+	font-size:12px;
+	padding: 0;
+}
+.registration fieldset 
+{
+	border:1px solid #B5B8C8;
+	margin-top:20px;
+	padding:15px;
+	background-color: #FAFAFA
+}
+.registration legend 
+{
+	color:#15428B;
+	font-size:12px;
+	font-weight:900;
+}
+.registration fieldset label 
+{
+	float:none;
+	text-align:inherit;
+	width:auto;
+}
+.registration label span 
+{
+	color:#000000;
+}
+.registration input, .registration select, .registration textarea 
+{
+	display:block;
+	margin-bottom:5px;
+}
+.registration .text-input 
+{
+	font-size:14px;
+	margin-top:4px;
+	padding:4px;
+	width:250px;
+}
+.registration .infos 
+{
+	background:#FFFFFF none repeat scroll 0 0;
+	color:#333333;
+	font-size:12px;
+	margin-bottom:10px;
+	padding:10px;
+	border: 1px dotted #DDD;
+}
+.registration span.checkbox, .registration .checkbox 
+{
+	display:inline;
+}
+.registration .submit 
+{
+	background:transparent url('img/form/button-bg.png') repeat-x scroll 0 0;
+	border:1px solid #AAAAAA;
+	float:right;
+	margin-top:20px;
+	padding:4px;
+	text-decoration:none;
+}
+.registration hr 
+{
+	clear:both;
+	visibility:hidden;
+}
+.registration .fc-error 
+{
+	background:#FFEAEA none repeat scroll 0 0;
+	border:1px solid #B5B8C8;
+	font-size:12px;
+	margin-bottom:15px;
+	padding:4px;
+	width:350px;
+}
