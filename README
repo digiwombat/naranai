@@ -1,5 +1,7 @@
 Explanation from my blog
 P.S. I know the code is in crap shape at the moment. I will fix it up in time. Feel free to help out, lazy fuckers.
+
+**Note: This README was written some time ago when I was in a bad mood. I still hate Ruby. Postgre, not as much anymore.
 ---
 
 Right! So, naranai is a piece of image repo software that is meant to be on feature parity with danbooru without using the absolutely shit terrible server technologies that danbooru uses.
