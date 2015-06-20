@@ -27,3 +27,5 @@ Plans for the Future
 In the immediate, I'm aiming for feature parity with danbooru. At least from a front-end. I don't much give a shit about the forums and the wiki sections. I'm also planning to actually RELEASE the software when I get it to a point where it can be used by people, program an installer, and all that jazz.
 
 My theme system will basically be a style selector, as the site will be completely editable through styling, and really what else do you need? Greedy fuckers. Likewise, when I open source it, I plan to have other people do all the work for me. As such, I have set up a git-hub repo for the project and I will edit this post to link to it shortly... now I am thoroughly distracted anddddd... yeah.
+
+There is no ideological or political stance requirement to contribute to this project.
